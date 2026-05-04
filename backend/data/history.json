@@ -238,5 +238,15 @@
     "total_moves_analyzed": 37,
     "player_color": "white",
     "elo": 2500
+  },
+  {
+    "id": "3fa48587e98d9886",
+    "analyzed_at": "2026-05-04T00:27:03.3198045Z",
+    "verdict": "HUMAN_PLAYER",
+    "suspicion_count": 0,
+    "threshold": 3,
+    "total_moves_analyzed": 37,
+    "player_color": "white",
+    "elo": 300
   }
 ]
