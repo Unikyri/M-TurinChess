@@ -1,0 +1,39 @@
+sdd_version: "1.0"
+project: M-TurinChess
+initialized_at: "2026-05-03"
+artifact_mode: openspec
+
+current_change: frontend-ui
+active_phase: apply-complete
+blockers: []
+
+changes:
+  - name: backend-foundation
+    phase: apply-complete
+    started_at: "2026-05-03"
+    artifacts:
+      - openspec/changes/backend-foundation/exploration.md
+      - openspec/changes/backend-foundation/proposal.md
+      - openspec/changes/backend-foundation/design.md
+      - openspec/changes/backend-foundation/tasks.md
+  - name: turing-machine
+    phase: apply-complete
+    started_at: "2026-05-03"
+    artifacts:
+      - openspec/changes/turing-machine/exploration.md
+      - openspec/changes/turing-machine/proposal.md
+      - openspec/changes/turing-machine/design.md
+      - openspec/changes/turing-machine/tasks.md
+  - name: gemini-integration
+    phase: apply-complete
+    started_at: "2026-05-03"
+    artifacts:
+      - openspec/changes/gemini-integration/exploration.md
+      - openspec/changes/gemini-integration/proposal.md
+      - openspec/changes/gemini-integration/tasks.md
+  - name: frontend-ui
+    phase: propose
+    started_at: "2026-05-03"
+    artifacts:
+      - openspec/changes/frontend-ui/exploration.md
+      - openspec/changes/frontend-ui/proposal.md
