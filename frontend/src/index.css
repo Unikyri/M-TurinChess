@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "Fira Code", "Courier New", "Courier", monospace;
+}
+
+body {
+  @apply bg-neutral-50 text-neutral-900 transition-colors duration-200;
+  color: #171717 !important;
+}
+
+/* Force standard dark text on inputs and textareas to override browser system settings */
+textarea, input {
+  color: #171717 !important;
+  background-color: #ffffff !important;
+}
+
+/* Custom smooth slide transition for the tape */
+.tape-slider {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Chessboard customization */
+.chessboard-container {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
