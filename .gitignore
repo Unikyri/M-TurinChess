@@ -3,6 +3,7 @@
 !/backend/
 !/frontend/
 !/.gitignore
+!/README.md
 
 # Ignore OS files
 .DS_Store
